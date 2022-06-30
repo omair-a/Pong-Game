@@ -4,8 +4,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Player {
-	protected final int WIDTH = 40;
-	protected final int HEIGHT = 5;
+	protected final int WIDTH = 32;
+	protected final int HEIGHT = 4;
 
 	protected int x;
 	protected int y;
