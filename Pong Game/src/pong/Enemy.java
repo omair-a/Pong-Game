@@ -27,7 +27,7 @@ public class Enemy extends Player {
 	@Override
 	public void render(Graphics g) {
 		tick();
-		g.setColor(new Color(255, 255, 255));
+		g.setColor(Color.red);
 		g.fillRect((int) x, super.y, super.WIDTH, super.HEIGHT);
 	}
 
